@@ -13,7 +13,7 @@ export function AuthForm({ children }: AuthFormProps) {
         alt="unila-logo"
         className="h-[150px] w-[150px]"
       />
-      <div className="w-full rounded-md bg-white p-4 py-6 shadow-md">
+      <div className="w-full rounded-md bg-white p-6 pt-8 shadow-md">
         {children}
       </div>
     </div>
