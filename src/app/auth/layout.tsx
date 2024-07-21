@@ -18,7 +18,7 @@ export default function AuthLayout({
         </div>
       </nav>
 
-      <div className="z-10 grid h-full w-full place-items-center pb-10">
+      <div className="z-10 grid h-screen w-full place-items-center overflow-scroll py-8">
         {children}
       </div>
 
