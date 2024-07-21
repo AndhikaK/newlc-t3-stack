@@ -8,5 +8,5 @@ export default {
   dbCredentials: {
     url: env.DATABASE_URL,
   },
-  tablesFilter: ["newlc-t3-stack_*"],
+  tablesFilter: ["newlc-t3stack_*"],
 } satisfies Config;
